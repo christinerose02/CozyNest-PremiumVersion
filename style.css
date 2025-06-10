@@ -1,0 +1,106 @@
+/*
+Theme Name: Cozy Nest Premium
+Text Domain: cozy-nest
+Author: Pikocode
+Author URI: https://pikocode.com/
+Description: Cozy-Nest is your go-to staycation site for cozy, local getaways—easy to book, comfy to stay, and made for relaxing escapes.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+Tested up to: 6.4
+Requires PHP: 7.4
+*/
+
+
+/* Copyright (C) 2025 Christine Rose Llorando
+ * This theme is licensed under the GNU General Public License v2.0 or later.
+ */
+
+
+body {
+    background-color: #FAF9F6; 
+    color: #4A3B3B; 
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    flex: 1; 
+}
+
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 10px;
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    z-index: 100;
+    text-decoration: none;
+}
+.skip-link:focus {
+    top: 10px;
+}
+
+
+
+
+ .alignleft {
+    float: left;
+    margin-right: 1.5em;
+    margin-bottom: 1em;
+}
+
+.alignright {
+    float: right;
+    margin-left: 1.5em;
+    margin-bottom: 1em;
+}
+
+.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+}
+
+.wp-caption {
+    display: inline-block;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.wp-caption-text {
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 5px;
+}
+
+.sticky {
+    background-color: #f4f4f4;
+    border-left: 4px solid #e94e77; 
+    padding-left: 10px;
+}
+
+.gallery-caption {
+    font-size: 1em;
+    color: #333;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.bypostauthor {
+    font-size: 1em;
+    color: #555;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #ddd;
+}
